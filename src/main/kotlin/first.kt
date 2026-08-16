@@ -1,3 +1,10 @@
 fun main() {
-    println("Hello Kotlin")
+    // Even or Odd
+    print("Enter number: ")
+    val num = readln().toInt()
+    val output = when {
+        num % 2 == 0 -> "The Number is even!"
+        else -> "The Number is odd!"
+    }
+    print(output)
 }
