@@ -1,4 +1,5 @@
 fun main() {
+    // Even or Odd
     print("Enter number: ")
     val num = readln().toInt()
     val output = when {
