@@ -1,4 +1,5 @@
 fun main() {
+    // Week Of The Day
     print("Enter the number: ")
     val input = readln().toInt()
     val output = when (input){
