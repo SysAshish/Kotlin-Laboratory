@@ -1,5 +1,5 @@
 fun main() {
-    /* to check the given number is either zero or Positive or Negative */
+    /* zero or Positive or Negative */
     print("Enter number: ")
     val num = readln().toIntOrNull()
     when {
